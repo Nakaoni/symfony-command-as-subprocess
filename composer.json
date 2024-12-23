@@ -1,0 +1,22 @@
+{
+    "name": "nakaoni/symfony-command-as-subprocess",
+    "type": "project",
+    "description": "[POC] trying out Symfony process component to run a command multiple times asynchronously.",
+    "require": {
+        "symfony/process": "7.3.x-dev",
+        "symfony/console": "7.3.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nakaoni\\SymfonyCommandAsSubprocess\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nakaoni",
+            "email": "16108885+Nakaoni@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
